@@ -1,0 +1,1333 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <title></title>
+    <style>
+        
+*{
+
+padding:0px;
+margin:0px;
+
+box-sizing:border-box;
+font-family:'Cedarville Cursive', cursive;
+
+}		
+		
+		
+		
+	 header{
+
+	width:100%;
+	height:100vh;
+	
+	background:linear-gradient(45deg, white 70%,green 60%);
+
+	
+	
+	}	
+		
+	nav{
+	box-shadow:0px 2px 4px rgba(0,0,0,0.300);
+	background:green;
+width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center:
+	flex:wrap;
+	
+}
+	
+	
+
+		
+		.logo img {
+	
+	
+		max-width:50px;
+		
+
+		
+		}
+		
+	
+		
+		
+
+	
+		
+	
+		
+		nav .nav-list ul {
+
+	line-height:45px;
+		display:flex;
+		list-style:none;
+		
+		}
+		
+		
+	 .nav-list ul li {
+					
+		margin-left:10px;
+		
+		}
+		
+		
+	.nav-list ul li a {
+	
+
+	
+	
+		font-size:1.2rem;
+		text-decoration:none;
+			
+		color:white;
+	
+		position:relative;  
+		
+		}
+		
+		
+	.nav-list ul li a::before {
+		
+		
+		position:absolute; 
+		content:"";
+		bottom:-4px;
+		left:0;
+		 width:10%;
+	transition:all ease 0.5s;
+		}
+		
+			
+			.nav-list ul li a:hover::before {
+		
+		 border-bottom:2px solid red ;
+ width:100%;
+	
+	
+		}
+
+		
+		
+		
+			.nav-list ul li a:hover{
+		color:red;
+		}
+		
+		
+		
+			.nav-icon  {
+		
+		align-items:center;
+		display:flex;
+		
+		}
+		
+		
+		.nav-icon a {
+		color:black;
+		
+		margin-left:10px;
+		transition:color 0.3s ease;
+		}
+		.nav-icon a:hover{
+		
+		color:yellow;
+		
+		}
+		
+		
+		
+		
+content{
+
+display:flex;
+	justify-content:space-around;
+	align-items:center:
+	flex:wrap;
+
+
+}
+		
+		content .left{
+		
+		margin-top:50px;
+		max-width:45%;
+		
+		
+			padding-left:40px;
+
+	
+	margin-bottom:20px;
+		
+		
+		}
+		
+		
+		
+			content .right{
+		margin-top:30px;
+		
+		max-width:55%;
+		
+		
+		}
+		
+		content .right img{
+		
+		max-width:100%;
+		
+		box-shadow:0px 1px 2px black;
+		border-radius:50%;
+		}
+		
+		
+		.total{
+font-size:1.5em;
+		color:white;
+		margin-right:7px;
+		}
+		
+	.total-amount{
+	font-weight:bold;
+	
+	}	
+	
+	.nav-icon button:hover{
+	
+background-color:red;
+	
+	
+	}
+	
+	
+	
+
+	
+	
+	
+	.left span{
+	
+	
+	font-weight:bold;
+	font-size:30px;
+	color:red;
+	
+	
+	}
+	
+	
+	
+	.left p:first-of-type{
+
+	font-size:48px;
+	font-weight:bold;
+	
+	
+	
+	}
+	
+		.left p:last-of-type{
+		animation-name: bar;
+  animation-duration: 3s;
+	font-size:18px;
+	font-weight:bold;
+	line-height:2;
+	color:black;
+	}
+	
+	
+.left .buynow{
+border-radius:5px;
+font-size:1em;
+padding:10px 15px;
+border:none;
+box-shadow:0px 2px 4px rgba(0,0,0,0.300);
+background-color:green;
+
+transition:0.3s ease;
+font-weight:300;
+}
+	
+	.left .buynow:hover{
+
+background-color:red;
+
+}
+
+.sec{
+
+
+display:flex;
+justify-content:center;
+align-items:center;
+	margin-bottom:15px;
+
+gap:90px;
+padding:5px 30px;
+height:auto;
+
+}
+
+
+
+.sec a{
+gap:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-decoration:none;
+font-size:2em;
+margin-bottom:40px;
+transition:all ease 0.3s;
+
+}
+
+.sec a:hover{
+
+transform:scale(1.1);
+
+
+
+}
+
+
+
+
+.sec img{
+max-height:200px;
+max-width:300px;
+
+}
+
+
+
+
+.sec a img{
+max-width:100px;
+height:auto;
+box-shadow:0px 0px 5px red;
+
+border-radius:50%;
+margin-bottom:10px;
+
+}
+.sec1{
+
+text-align:center;
+
+padding:20px;
+
+
+}
+
+
+.sec1 h1{
+
+font-size:2em;
+
+
+margin-bottom:15px;
+
+}
+
+
+.sec1 p{
+
+
+font-size:1em;
+
+
+margin-bottom:30px;
+margin-left:auto;
+margin-right:auto;
+
+max-width:600px;
+
+}
+
+	.sec2{
+	
+	display:flex;
+	justify-content:center;
+	flex:wrap;
+	gap:10px;
+align-items;
+	
+	
+	}
+	.sec2 .images{
+	
+	
+	color:black;
+	background-color:white;
+	box-shadow:0px 4px 8px orange;
+	border-radius:10px;
+text-align:center;
+
+max-width:200px;
+	}
+	
+	
+	.sec2 .images img:hover{
+	
+	
+	
+	transform:scale(1.1);
+	
+	}
+
+	
+	
+	.sec2 .images img{
+	margin-top:10px;
+	max-width:100%;
+	border-radius:10px;
+	
+	}
+	
+	.images span{
+	font-size:1em;
+	display:flex;
+	margin:10px 15px;
+	
+	
+	
+	
+	
+	}
+	.images span:nth-child(2){
+	font-size:1.2em;
+	
+	font-weight:bold;
+	
+	color:green;
+	
+	}
+	
+	.images span:nth-child(3){
+	font-size:1.3em;
+	
+	font-weight:bold;
+	color:green;
+	
+	}
+	
+	.images a{
+	font-size:1.2em;
+	margin-top:10px;
+	display:inline-block;
+	background-color:gray;
+	padding:5px 30px;
+	text-decoration:none;
+	
+	border-radius:5px;
+	margin-bottom:15px;
+	}
+	
+	
+	.sec3{
+	
+	padding:20px;
+	 
+	 
+	 
+
+	 
+	 
+	 
+	
+	}
+	
+
+ }
+	
+	.sec3 .container1 img {
+	
+	max-width:50px;
+border-radius:50%;
+	
+	
+	}
+
+	.sec3 h2 {
+	
+font-size:20px;
+text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+	
+	}
+	
+.container1 img{ 
+
+border-radius:50%;   
+max-width:50px;  
+
+
+}
+	
+.container1{
+
+
+
+display:flex;
+
+justify-content:space-between;
+
+
+}
+
+
+
+.c1{
+
+min-width:300px;
+
+margin-right:20px;
+
+background-color:white;
+border-radius:10px;
+padding:20px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.300);
+
+
+}
+
+.clienstar{
+
+display:flex;
+margin-top:10px;   
+justify-content:flex-start;
+
+
+}
+
+.clienstar i {
+
+color:orange;
+color:rgb(185,160,15);
+
+
+}
+
+
+.clienstar i.fas{
+
+color:gold;
+
+}
+
+.clienstar i:hover,.clienstar i:hover~i
+{
+
+
+color:gold;
+
+
+
+}
+
+
+
+
+
+
+body.dark-mode{
+
+color:blue;
+background-color:blue;
+
+
+
+}
+
+
+footer{
+
+background-color:green;
+padding:40px 20px;
+color:white;
+
+
+
+}
+.footer-content{
+
+display:flex;
+justify-content:space-evenly;
+flex-wrap:wrap;
+margin-bottom:30px;
+
+}
+
+.footer-section{
+
+flex-basis:24%;
+margin-bottom:20px;
+
+
+}
+.footer-bottom{
+text-align:center;
+background-color:black;
+
+padding:10px;
+}
+
+
+.footer-section h3{
+
+
+font-size:18px;
+margin-bottom:10px;
+
+
+}
+
+.footer-section p{
+
+
+line-height:1.5;
+
+
+}
+
+.footer-section ul{
+
+
+list-style:none;
+
+}
+.footer-section ul li{
+
+margin-bottom:5px;
+
+}
+.footer-section ul li a{
+
+text-decoration:none;
+color:white;
+}
+
+.footer-section form{
+
+dispaly:flex;
+
+
+
+}
+.footer-section input[type="email"]{
+padding:8px;
+border:none;
+border-radius:4px 0px 0px 4px;
+flex:1;
+
+}
+
+.footer-section button[type="submit"]{
+color:white;
+padding:8px 16px;
+
+border:none;
+background:#333;
+border-radius: 0 4px 4px 0;
+cursor:pointer;
+}
+
+.social-icons{
+
+
+display:flex;
+justify-content:center;
+
+
+}
+
+.social-icons a{
+
+
+color:white;
+margin:0px 10px;
+transition:color 0.3s ease;
+
+}
+.social-icons a:hover{
+
+
+color:red;
+
+
+
+}
+.total{
+margin-left:10px;
+margin-right:10px;
+font-size:1.5rem;
+}
+.total-amount{
+
+
+font-weight:bold;
+
+
+}
+.order{font-size:1.5rem;
+
+margin-right:10px;
+border-radius:5px;
+border:none;
+color:white;
+padding:3px 10px;
+background-color:orange
+}
+
+.order:hover{
+background-color:red;
+
+}
+
+.mode{font-size:1.5rem;
+
+margin-right:10px;
+border-radius:5px;
+border:none;
+color:white;
+padding:3px 10px;
+background-color:orange
+}
+
+.order:hover{
+background-color:red;
+
+}
+.nav-icon li{
+
+list-style:none;
+
+}
+
+
+    </style>
+  
+</head>
+<body>
+
+<header>
+<nav data-aos="fade-up" data-aos-delay="400" >
+
+<div class="logo"  data-aos="fade-left" data-aos-delay="600"     ><img src="logo.png" alt="offline"></div>
+
+<div class="nav-list" data-aos="fade-down" data-aos-delay="600"  ><ul class="nav-list-sect">
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Shop</a></li>
+<li><a href="#">Contact</a></li>
+
+</ul></div>
+<div class="nav-icon" data-aos="fade-right" data-aos-delay="600"  >
+<li><a href="#"><i class="fa-solid fa-cart-plus"></i><span class="span">0</span></a></li>
+<li><a href="#"><i class="fa-solid fa-shop"></i></a></li>
+<div class="total"><span>Total:$</span><span class="total-amount">0.00</span></div>
+<button  class="order" onclick="orderNow()">Order</button>
+<button class="mode"><i class="fa-solid fa-moon" class="cv"></i></button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</nav>
+
+<content>
+
+<div class="left" data-aos="fade-left" data-aos-delay="1500" >
+<span>Delicious Food</span>
+<p>Eat Well,<br>
+Live Well</p>
+
+<p>Spicy and Fantastic
+<br>
+Enjoy your Life With Different Taste,One Dish At a Time...</p>
+
+<br>
+
+<button class="buynow">Buy Now <i class="fa-solid fa-arrow-right"></i></button>
+
+</div>
+
+<div class="right" data-aos="fade-up-right" data-aos-delay="1500">
+
+
+
+<img src="main.png" alt="offline">
+
+</div>
+
+</content>
+
+</header>
+<section class="sec" data-aos="fade-down-right" data-aos-delay="2000">
+<img src="chef.png" alt="offline" >
+<a href="#"><img src="lunch.png" alt="offline"  >Dinner</a>
+<a href="#"><img src="tea.png" alt="offline" >Tea</a>
+<a href="#"><img src="breakfast.png" alt="offline" >Breakfast</a>
+
+</section>
+
+
+
+<div class="sec1">
+<h1>Our Menu</h1>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text.Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+
+
+</div>
+
+
+
+<div class="sec2" data-aos="zoom-in" data-aos-delay="50">
+<div class="images" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  >
+<img src="Salad.png" alt="offline"  >
+<span>Salad</span>
+<span>Discount 10%</span>
+<span class="totals">400</span>
+<a href="#" class="addtocart"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+
+
+<div class="images"   data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  >
+<img src="Salad.png" alt="offline">
+<span>Salad</span>
+<span>Discount 10%</span>
+<span class="totals" >400</span>
+<a href="#" class="addtocart"><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+
+
+
+<div class="images" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  >
+<img src="Salad.png" alt="offline" >
+<span>Salad</span>
+<span>Discount 10%</span>
+<span class="totals">400</span>
+<a href="#" class="addtocart" ><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+
+<div class="images" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000"  >
+<img src="salad.png" alt="offline" >
+<span>Salad</span>
+<span>Discount 10%</span>
+<span class="totals">600</span>
+<a href="#" class="addtocart" ><i class="fa-solid fa-cart-plus"></i></a>
+</div>
+
+
+</div>
+
+
+<div class="sec3" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+
+<div class="clientsay"><h2>What Our Client Say</h2></div>
+
+<div class="container1">
+<div class="c1">
+<img src="logo.png" alt="offline"  >
+<p>Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+
+<div class="clientinfo">
+
+<img src="profile.png" alt="offline" >
+
+<a href="#">Harry</a>
+</div>
+<div class="clienstar">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+
+</div>
+
+
+</div>
+
+
+<div class="c1">
+<img src="logo.png" alt="offline"  >
+<p>Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+
+<div class="clientinfo">
+
+<img src="profile.png" alt="offline" >
+
+<a href="#">Harry</a>
+</div>
+<div class="clienstar">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-regular fa-star"></i>
+<i class="fa-regular fa-star"></i>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="c1">
+<img src="logo.png" alt="offline"  >
+<p>Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+<div class="clientinfo">
+
+<img src="profile.png" alt="offline" >
+
+<a href="#">Harry</a>
+</div>
+<div class="clienstar">
+<i class="fa-solid fa-star active"></i>
+<i class="fa-solid fa-star active"></i>
+<i class="fa-solid fa-star active"></i>
+<i class="fa-regular fa-star active"></i>
+<i class="fa-regular fa-star active"></i>
+
+</div>
+
+
+</div>
+
+
+
+<div class="c1">
+<img src="logo.png" alt="offline"  >
+<p>Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text.Con  Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+
+<div class="clientinfo">
+
+<img src="profile.png" alt="offline" >
+
+<a href="#">Harry</a>
+</div>
+<div class="clientstar" data-rating="3">
+<i class="fa-solid fa-star " data-rating="1"></i>
+<i class="fa-solid fa-star" data-rating="2" ></i>
+<i class="fa-solid fa-star " data-rating="3"></i>
+<i class="fa-regular fa-star " data-rating="4"></i>
+<i class="fa-regular fa-star  " data-rating="5"></i>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+<script >
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  console.log("DOM fully loaded and parsed");
+
+
+
+
+
+
+var price=document.querySelector('.totals').innerHTML;
+var total=document.querySelector('.total-amount').innerHTML;
+var addcart=document.querySelectorAll('.addtocart'); 
+var order=document.querySelector('.order');
+var star=document.querySelectorAll('.clientstar i'); 
+
+
+
+star.forEach((stars,i)=>{
+
+
+
+
+
+stars.onclick=function(){
+
+const glitter=this.getAttribute('data-rating');
+const random=this.parentNode;
+
+random.setAttribute('data-rating',rating);
+
+update(random,rating);
+}
+
+});
+
+
+
+function update(random,rating){
+
+const glit=random.querySelectorAll('i');
+
+console.log(glit);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for(j=0;j<addcart.length;j++)   
+
+{
+
+
+
+
+addcart[j].addEventListener('click',myFunction);
+
+
+}
+
+
+
+
+
+
+
+
+function myFunction(){
+
+//console.log(e.target.parentElement.parentElement.[2]);
+
+
+let product=sessionStorage.getItem("addcart");
+
+
+product=parseInt(product);
+price=parseInt(price);
+total=parseInt(total);
+total+=price;
+document.querySelector('.total-amount').textContent=total;
+
+if(product)  
+
+{
+
+
+sessionStorage.setItem("addcart",product+1);
+
+
+document.querySelector('.span').innerHTML=product+1; 
+
+console.log(product);
+
+
+}
+
+else{  
+
+sessionStorage.setItem("addcart",1); 
+
+document.querySelector('.span').innerHTML=1; 
+
+
+}
+
+}
+
+
+
+order.addEventListener('click',myOrder);
+
+
+function myOrder(){
+
+sessionStorage.clear();
+document.querySelector('.span').innerHTML="0";
+
+total="0.00";
+document.querySelector('.total-amount').innerHTML=total;
+alert('ordered....');
+
+
+
+
+
+}
+
+
+
+
+});
+
+//onload(); 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+//function onload()
+//{
+
+
+//let product=sessionStorage.getItem("addcart");
+
+//if(product)  
+
+
+//{
+
+//document.querySelector('.span').innerHTML=product; 
+
+
+//}
+
+
+
+
+
+
+//}
+
+</script>
+<script>
+
+
+let button=document.querySelector('.mode');
+
+let icon=document.querySelector('.fa-moon');
+
+
+button.addEventListener('click',()=>{
+
+
+if(icon.classList.contains('fa-moon'))
+
+{
+
+icon.classList.replace('fa-moon','fa-sun');
+
+document.body.style.color = "blue";
+
+document.body.style.background = "black";
+}
+
+else{
+
+
+icon.classList.replace('fa-sun','fa-moon');
+
+document.body.style.background = "white";
+document.body.style.color = "pink";
+}
+
+
+});
+
+
+
+</script>
+
+
+
+
+<script>
+
+
+//onload(); 
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+//function onload()
+//{
+
+//let product=sessionStorage.getItem("addcart");
+
+//if(product)  
+
+
+//{
+
+//document.querySelector('.span').innerHTML=product; 
+
+
+//}
+
+
+
+
+
+
+
+//}
+
+
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<footer>
+<div class="footer-content" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">
+<div class="footer-section" >
+<h3>About</h3>
+<p>It has survived not only five centuries,
+ but also the leap into electronic typesetting, 
+ remaining essentially unchanged.</p>
+</div>
+
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">Service</a></li>
+</ul>
+</div>
+
+
+
+<div class="footer-section">
+<h3>Subscribe</h3>
+<form action="">
+<input type="email" placeholder="enter your email">
+
+<button type="submit">subscribe</button>
+</form>
+
+
+
+</div>
+
+
+<div class="footer-section">
+<h3>Follow Us</h3>
+<div class="social-icons">
+<a href=""><i class="fab fa-facebook"></i></a>
+<a href=""><i class="fab fa-twitter"></i></a>
+<a href=""><i class="fab fa-instagram"></i></a>
+<a href=""><i class="fab fa-linkedin-in"></i></a>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</div>
+<div class="footer-bottom">
+
+<p>&copy 2024 Smash Coder,All rights reserved</p>
+
+</div>
+</footer>
+
+
+
+</body>
+</html>
